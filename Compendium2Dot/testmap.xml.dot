@@ -1,0 +1,281 @@
+digraph testmap {
+graph [fontname=arial, overlap=false, compound=true, concentrate=true, overlap=false, fontsize=11];
+node [fontname=arial, fontsize=11];
+1270111277220380783 [label="overkill currently",fillcolor=red, style=filled]
+subgraph cluster_1270111268064547092{
+label="Viewer";
+1270111268064547092 [label="map_Viewer", shape=point, style=filled, fillcolor=blue];
+}
+152789661277116954394 [label="website",fillcolor=yellow, style=filled]
+1270111277211122350 [label="Shouldnt we want close compendium integration?",fillcolor=lightblue, style=filled]
+1270111277210730698 [label="mailboxes are full enough",fillcolor=red, style=filled]
+152789661277143707682 [label="integration and maintenance overhead",fillcolor=red, style=filled]
+subgraph cluster_1270111277209805280{
+label="Bottom up solution";
+1270111277209805280 [label="map_Bottom up solution", shape=point, style=filled, fillcolor=blue];
+152789661277143698525 [label="Bottom up solution",fillcolor=yellow, style=filled]
+1270111277220499413 [label="separate installs of blog, wiki, website, ... platforms",fillcolor=yellow, style=filled]
+}
+1270111277211119814 [label="What kind of documentation?",fillcolor=lightblue, style=filled]
+152789661277117284183 [label="wiki",fillcolor=yellow, style=filled]
+152789661277117296903 [label="mailinglist",fillcolor=yellow, style=filled]
+152789661277116980209 [label="distinction public/private?",fillcolor=lightblue, style=filled]
+1270111277211559137 [label="proof of concept compendium -> mediawiki exists",fillcolor=yellow, style=filled]
+152789661277117415677 [label="Tools",fillcolor=yellow, style=filled]
+152789661277115950855 [label="Supporting software",fillcolor=lightblue, style=filled]
+152789661282122594525 [label="authentication?",fillcolor=lightblue, style=filled]
+152789661277117527263 [label="file server for images, movies, ...",fillcolor=yellow, style=filled]
+152789661277149215195 [label="monitoring",fillcolor=yellow, style=filled]
+152789661277117289684 [label="forum",fillcolor=yellow, style=filled]
+152789661277117172379 [label="discussion",fillcolor=yellow, style=filled]
+152789661281434806936 [label="more efficient if just need a couple of loosely coupled tools",fillcolor=green, style=filled]
+1270111277211185973 [label="including the sysadmin",fillcolor=yellow, style=filled]
+152789661277117183504 [label="communication",fillcolor=yellow, style=filled]
+152789661281622573232 [label="quality control",fillcolor=yellow, style=filled]
+152789661277117163581 [label="dissemination",fillcolor=yellow, style=filled]
+1270111277210550396 [label="integrated systems (e.g., backup)",fillcolor=green, style=filled]
+1270111277210566972 [label="most out of every feature",fillcolor=green, style=filled]
+152789661277116944597 [label="VCS",fillcolor=yellow, style=filled]
+152789661277149161925 [label="PEOPLE ARE LAZY",fillcolor=yellow, style=filled]
+152789661277115968450 [label="Tasks",fillcolor=yellow, style=filled]
+152789661277143667867 [label="allround, great at little",fillcolor=red, style=filled]
+1270111277211187861 [label="keep it simple",fillcolor=yellow, style=filled]
+152789661277117074106 [label="coordination",fillcolor=yellow, style=filled]
+152789661277149227070 [label="backup solution",fillcolor=yellow, style=filled]
+1270111277220361439 [label="bugtracking",fillcolor=yellow, style=filled]
+152789661277147686775 [label="blog",fillcolor=yellow, style=filled]
+1270111277210799482 [label="stewardship essential !",fillcolor=red, style=filled]
+1270111277220215016 [label="Test framework",fillcolor=yellow, style=filled]
+152789661277149118422 [label="burn graphs",fillcolor=yellow, style=filled]
+1270111268060795648 [label="rationale tool",fillcolor=yellow, style=filled]
+152789661277117154362 [label="documentation",fillcolor=yellow, style=filled]
+152789661280915974195 [label="readme type instructions, workflow info, ...",fillcolor=yellow, style=filled]
+152789661281434737055 [label="hard to get stuff out of (e.g., people like a linear manual)",fillcolor=red, style=filled]
+1270111277210701563 [label="forum no real use at this point?",fillcolor=lightblue, style=filled]
+subgraph cluster_152789661278594161350{
+label="Subversion";
+152789661278594161350 [label="map_Subversion", shape=point, style=filled, fillcolor=blue];
+152789661278594199509 [label="inefficient with diskspace (2x)",fillcolor=red, style=filled]
+152789661278594482019 [label="access anywhere, from any platform",fillcolor=green, style=filled]
+152789661278594313895 [label="tedious moving and renaming",fillcolor=red, style=filled]
+152789661278594934653 [label="will not detect disk rot",fillcolor=red, style=filled]
+152789661278594373900 [label="deal with .svn folders",fillcolor=red, style=filled]
+152789661278594248217 [label="excellent redundancy",fillcolor=green, style=filled]
+152789661278595180744 [label="requires braincells",fillcolor=red, style=filled]
+152789661278594221699 [label="saves ALL verisons, can't trim",fillcolor=red, style=filled]
+152789661278594172054 [label="subversion",fillcolor=yellow, style=filled]
+152789661278594190852 [label="As backup system",fillcolor=yellow, style=filled]
+152789661278594262671 [label="full power of revision control and rollback",fillcolor=green, style=filled]
+}
+subgraph cluster_1270111277209790597{
+label="Top down solution";
+1270111277209790597 [label="map_Top down solution", shape=point, style=filled, fillcolor=blue];
+152789661283360970046 [label="Comparison",fillcolor=gray, style=filled]
+152789661283263773934 [label="Others",fillcolor=yellow, style=filled]
+152789661277143554406 [label="Top down solution",fillcolor=yellow, style=filled]
+subgraph cluster_152789661283263754245{
+label="Custom system";
+152789661283263754245 [label="map_Custom system", shape=point, style=filled, fillcolor=blue];
+152789661283263890161 [label="Custom system",fillcolor=yellow, style=filled]
+152789661283361072975 [label="basic file mgt but no document mgt system",fillcolor=red, style=filled]
+152789661277145068059 [label="Drupal",fillcolor=yellow, style=filled]
+152789661283353063427 [label="auto semantic tagging (Calais, Alchemi)",fillcolor=green, style=filled]
+152789661283362088734 [label="active directory integration",fillcolor=lightblue, style=filled]
+152789661283343772507 [label="Database agnostic",fillcolor=green, style=filled]
+152789661283416162287 [label="clunky inherritance",fillcolor=red, style=filled]
+152789661283352091046 [label="workflows, charting, dashboard, service, event handing, RDF",fillcolor=green, style=filled]
+152789661283361946068 [label="access rights handling clunky",fillcolor=red, style=filled]
+152789661283359890314 [label="http://www.youtube.com/watch?v=LOv94z7fk6w",fillcolor=gray, style=filled]
+152789661283416469152 [label="services API needs work",fillcolor=red, style=filled]
+152789661283344531998 [label="http://www.istos.it/blog/drupal-entities/drupal-entities-part-2-what-where-and-when-entities",fillcolor=gray, style=filled]
+152789661283347134978 [label="follows open standards, improves interoperability",fillcolor=green, style=filled]
+152789661283362330313 [label="office integration (editing, sharing, versioning, ...)",fillcolor=red, style=filled]
+152789661283364898010 [label="http://openatrium.com/",fillcolor=gray, style=filled]
+152789661283415663892 [label="custom content types",fillcolor=green, style=filled]
+152789661283954763225 [label="no designer-like tool",fillcolor=red, style=filled]
+152789661283362391740 [label="Alfresco/CMIS/... solution?",fillcolor=lightblue, style=filled]
+152789661283364798503 [label="intranet frontend available (openAtrium)",fillcolor=green, style=filled]
+152789661283343780445 [label="free/easy scaling, replication, load balancing",fillcolor=green, style=filled]
+152789661283343633169 [label="built in RDF support if needed",fillcolor=green, style=filled]
+152789661284025275278 [label="module selection",fillcolor=red, style=filled]
+152789661283350133080 [label="established project with large community, userbase, many high profile sites",fillcolor=green, style=filled]
+152789661283362155489 [label="flexible, mature, search system (Solr)",fillcolor=green, style=filled]
+152789661283327380150 [label="fast evolving system",fillcolor=orange, style=filled]
+152789661283343665218 [label="http://www.forumone.com/blogs/post/datamasher-drupal-based-data-visualization-tool",fillcolor=gray, style=filled]
+152789661283367482629 [label="digital repo integration activity",fillcolor=green, style=filled]
+152789661283364879524 [label="needs to mature",fillcolor=red, style=filled]
+}
+152789661277145513497 [label="Alfresco, openAtrium, ...",fillcolor=yellow, style=filled]
+1270111277221578233 [label="Project managment sites (SourceForge, Launchpad, ...)",fillcolor=yellow, style=filled]
+subgraph cluster_1270111277221852722{
+label="Sharepoint";
+1270111277221852722 [label="map_Sharepoint", shape=point, style=filled, fillcolor=blue];
+152789661283412306562 [label="Browser support levels",fillcolor=gray, style=filled]
+152789661277141409630 [label="learning curve? Training costs? Need for specialist developers?",fillcolor=lightblue, style=filled]
+152789661283351430202 [label="enterprisy things not needed in decode (governance, audit, compliance, BI, ...)",fillcolor=lightblue, style=filled]
+152789661277140618324 [label="Free version = sharepoint foundation",fillcolor=yellow, style=filled]
+152789661283412739108 [label="moonlight",fillcolor=gray, style=filled]
+152789661283327257173 [label="added value scales with institution size?",fillcolor=lightblue, style=filled]
+152789661283354660305 [label="http://sharepoint.microsoft.com/en-us/buy/Pages/Editions-Comparison.aspx",fillcolor=gray, style=filled]
+152789661277141350797 [label="does not replace a VCS",fillcolor=red, style=filled]
+152789661277139996546 [label="not a lightweight solution (admin effort)",fillcolor=red, style=filled]
+152789661277139819502 [label="IIS, SQL Server, Win2008, Office 2010, Visual studio, dependencies",fillcolor=orange, style=filled]
+152789661277118060425 [label="sharepoint",fillcolor=yellow, style=filled]
+152789661284016845387 [label="May rely on enterprise features",fillcolor=red, style=filled]
+152789661283351334805 [label="need enterprise version",fillcolor=red, style=filled]
+152789661280915198333 [label="commercial ecosystem for various plugins (e.g., dashboards)",fillcolor=green, style=filled]
+152789661283324752762 [label="rich, wizardy, developer tool support (designer, VS, ribbon)",fillcolor=green, style=filled]
+152789661278517285082 [label="TCO ?",fillcolor=lightblue, style=filled]
+152789661283413637796 [label="SP+Office whitepaper",fillcolor=gray, style=filled]
+152789661283358318047 [label="C#, .NET nice powerful frameworks",fillcolor=green, style=filled]
+152789661284018072083 [label="http://stovereffect.com/2010/06/29/sharepoint-2010-licensing-part-i-the-basics/",fillcolor=gray, style=filled]
+152789661283413276724 [label="need to maintain separate site if dont want to pay for public usage",fillcolor=red, style=filled]
+152789661283266153836 [label="Poor integration outside of the Microsoft ecosystem client / server / file formats).",fillcolor=red, style=filled]
+152789661281435596887 [label="particular plugins (e.g., wiki?) may rely on these",fillcolor=red, style=filled]
+152789661283361248472 [label="importing/exporting data issues",fillcolor=red, style=filled]
+152789661277140979943 [label="4GB per database size limit",fillcolor=red, style=filled]
+152789661283351332680 [label="require standard edition",fillcolor=red, style=filled]
+152789661283265925663 [label="dedicated anti virus and backup solution needed",fillcolor=red, style=filled]
+152789661277141396847 [label="extensible through various APIs and plugins (webparts)",fillcolor=green, style=filled]
+152789661283266027280 [label="https://svn.soton.ac.uk/decode/Dirk/docs/software_costs.xlsx",fillcolor=gray, style=filled]
+152789661283361761742 [label="upgrade/migration dependencies?",fillcolor=lightblue, style=filled]
+152789661284016818385 [label="Leverage soton sharepoint work",fillcolor=green, style=filled]
+152789661277140825526 [label="missing features: taxonomy, metadata, social services, profiles, server search,..",fillcolor=red, style=filled]
+152789661277142811494 [label="seamless integration with other MS solutions (IIS, Exchange, ASP, ...) and the MS desktop (office, outlook) = key selling point",fillcolor=green, style=filled]
+152789661277146643482 [label="MS hosted instance available (monthly fee)",fillcolor=yellow, style=filled]
+152789661283415636468 [label="flexible content types",fillcolor=green, style=filled]
+152789661283328127468 [label="pay per user (CALs)",fillcolor=red, style=filled]
+152789661280915505493 [label="file system workaround",fillcolor=yellow, style=filled]
+152789661283350364924 [label="many features: managed accounts, mobile, patch mgt, service architecture",fillcolor=green, style=filled]
+152789661284016877030 [label="license issues when going commercial?",fillcolor=red, style=filled]
+}
+}
+1270111277210777298 [label="collaborative documentation",fillcolor=green, style=filled]
+152789661277117554421 [label="build/release server",fillcolor=yellow, style=filled]
+
+152789661281434737055 -> 152789661277117284183;
+152789661277117163581 -> 152789661277115968450;
+152789661277116944597 -> 152789661277117415677;
+152789661281434806936 -> 1270111277209805280;
+152789661277149161925 -> 152789661277115950855;
+152789661277116980209 -> 152789661277116954394;
+1270111277211122350 -> 152789661277147686775;
+152789661277117154362 -> 152789661277115968450;
+1270111277209805280 -> 152789661277115950855;
+1270111268060795648 -> 152789661277117415677;
+1270111268064547092 -> 152789661277117415677;
+152789661277149215195 -> 152789661277115968450;
+1270111277211119814 -> 1270111277210777298;
+1270111277220215016 -> 152789661277117415677;
+152789661278594161350 -> 152789661277116944597;
+152789661277115968450 -> 152789661277115950855;
+152789661277116954394 -> 152789661277117415677;
+152789661277147686775 -> 152789661277117415677;
+152789661277149227070 -> 152789661277117415677;
+1270111277210777298 -> 152789661277117284183;
+1270111277220361439 -> 152789661277117415677;
+152789661277117284183 -> 152789661277117415677;
+152789661281622573232 -> 152789661277115968450;
+1270111277211559137 -> 1270111277211122350;
+152789661280915974195 -> 1270111277211119814;
+152789661277117074106 -> 152789661277115968450;
+152789661277117554421 -> 152789661277117415677;
+152789661282122594525 -> 152789661277115968450;
+1270111277209790597 -> 152789661277115950855;
+152789661277117527263 -> 152789661277117415677;
+152789661277143667867 -> 1270111277209790597;
+152789661277117289684 -> 152789661277117415677;
+1270111277210550396 -> 1270111277209790597;
+1270111277210730698 -> 152789661277117296903;
+1270111277211187861 -> 152789661277149161925;
+152789661277117183504 -> 152789661277115968450;
+152789661277149118422 -> 152789661277117415677;
+152789661277143707682 -> 1270111277209805280;
+1270111277220380783 -> 1270111277220361439;
+1270111277211185973 -> 152789661277149161925;
+1270111277210701563 -> 152789661277117289684;
+152789661277117172379 -> 152789661277115968450;
+1270111277210566972 -> 1270111277209805280;
+152789661277117415677 -> 152789661277115950855;
+152789661277117296903 -> 152789661277117415677;
+1270111277211122350 -> 1270111277210777298;
+1270111277210799482 -> 152789661277117284183;
+1270111277211122350 -> 152789661277117289684;
+1270111277220499413 -> 152789661277143698525;
+152789661278594313895 -> 152789661278594190852;
+152789661278594190852 -> 152789661278594172054;
+152789661278595180744 -> 152789661278594190852;
+152789661278594262671 -> 152789661278594190852;
+152789661278594373900 -> 152789661278594190852;
+152789661278594199509 -> 152789661278594190852;
+152789661278594221699 -> 152789661278594190852;
+152789661278594934653 -> 152789661278594190852;
+152789661278594248217 -> 152789661278594190852;
+152789661278594482019 -> 152789661278594190852;
+152789661283360970046 -> 1270111277221852722;
+152789661277145513497 -> 152789661283263773934;
+1270111277221852722 -> 152789661277143554406;
+152789661283360970046 -> 152789661283263754245;
+1270111277221578233 -> 152789661283263773934;
+152789661283263773934 -> 152789661277143554406;
+152789661283263754245 -> 152789661277143554406;
+152789661283347134978 -> 152789661277145068059;
+152789661283343772507 -> 152789661277145068059;
+152789661283361946068 -> 152789661277145068059;
+152789661283364798503 -> 152789661277145068059;
+152789661283361072975 -> 152789661277145068059;
+152789661283362155489 -> 152789661277145068059;
+152789661283416162287 -> 152789661283415663892;
+152789661283327380150 -> 152789661277145068059;
+152789661283362330313 -> 152789661277145068059;
+152789661277145068059 -> 152789661283263890161;
+152789661283362088734 -> 152789661277145068059;
+152789661283343780445 -> 152789661277145068059;
+152789661283416469152 -> 152789661277145068059;
+152789661283343633169 -> 152789661277145068059;
+152789661283364898010 -> 152789661283364798503;
+152789661283364879524 -> 152789661283364798503;
+152789661283954763225 -> 152789661277145068059;
+152789661283350133080 -> 152789661277145068059;
+152789661284025275278 -> 152789661277145068059;
+152789661283415663892 -> 152789661277145068059;
+152789661283362391740 -> 152789661283362330313;
+152789661277140825526 -> 152789661277140618324;
+152789661278517285082 -> 152789661277139819502;
+152789661283413276724 -> 152789661277118060425;
+152789661277139819502 -> 152789661277118060425;
+152789661283350364924 -> 152789661277118060425;
+152789661283266153836 -> 152789661277142811494;
+152789661277141350797 -> 152789661277118060425;
+152789661284018072083 -> 152789661283328127468;
+152789661283358318047 -> 152789661277118060425;
+152789661277139996546 -> 152789661277118060425;
+152789661283351334805 -> 152789661283350364924;
+152789661283412306562 -> 152789661283266153836;
+152789661283328127468 -> 152789661277118060425;
+152789661283351430202 -> 152789661283351332680;
+152789661283361761742 -> 152789661277142811494;
+152789661283354660305 -> 152789661283351334805;
+152789661283361248472 -> 152789661277118060425;
+152789661283266027280 -> 152789661277139819502;
+152789661283413637796 -> 152789661277142811494;
+152789661280915198333 -> 152789661277118060425;
+152789661280915505493 -> 152789661277140979943;
+152789661277140979943 -> 152789661277140618324;
+152789661284016845387 -> 152789661284016818385;
+152789661283415636468 -> 152789661277118060425;
+152789661277141396847 -> 152789661277118060425;
+152789661277142811494 -> 152789661277118060425;
+152789661277141409630 -> 152789661277141396847;
+152789661283265925663 -> 152789661277118060425;
+152789661277146643482 -> 152789661277139996546;
+152789661284016877030 -> 152789661284016818385;
+152789661277140618324 -> 152789661277118060425;
+152789661283354660305 -> 152789661283351332680;
+152789661283327257173 -> 152789661277118060425;
+152789661283351332680 -> 152789661283350364924;
+152789661281435596887 -> 152789661277140825526;
+152789661283412739108 -> 152789661283266153836;
+152789661283324752762 -> 152789661277118060425;
+152789661284016818385 -> 152789661277118060425;
+}
